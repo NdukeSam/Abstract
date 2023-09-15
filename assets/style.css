@@ -1,0 +1,140 @@
+body {
+    text-align: center;
+    margin: 0;
+    font-family: Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.logoArea {
+    display: flex;
+    align-items: center; 
+    padding-left: 2rem;
+}
+
+#headerNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #000;
+    min-height: 4rem;
+}
+
+#headerLogo{
+    background-color: azure;
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 30%;
+}
+
+.headerName {
+    color: #fff;
+    font-weight: 600;
+    font-size: medium;
+    margin-left: .4rem;
+    font-family: Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.helpCenter {
+    font-weight: lighter;
+}
+
+.request {
+    border-radius: 9px;
+    outline: none;
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    font-weight: 400;
+    font-family: inherit;
+    height: 2rem;
+    width: 10rem;
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: #191a1b;
+    box-shadow: none;
+
+}
+
+.signIn {
+    background-color: #4C5FD5;
+    border: none;
+
+}
+
+/* HERO */
+
+.hero {
+    background-color: #DADBF1;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.heroContent {
+    font-size: 4rem;
+}
+
+#siteSearch {
+    width: 35rem;
+    outline: none;
+    border: 1px solid #000;
+    padding: 1rem;
+}
+
+.enterSearch {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    position: relative;
+    left: 32.4rem;
+    bottom: 2.2rem;
+    cursor: pointer;
+    width: fit-content;
+}
+
+input::placeholder {
+    font-family: Ubuntu, sans-serif;
+}
+
+/* CATERGORIES */
+
+.categories {
+    margin: 0 100px;
+}
+
+.category-list {
+    flex-wrap: wrap;
+}
+
+.category-items {
+    display: flex;
+    text-align: initial;
+}
+
+.category-img {
+    margin: 17px 20px ;
+    height: 50px;
+
+}
+
+.category-text > p {
+    font-size: 20px;
+    line-height: 32px;
+
+}
+
+@media (max-width: 768px) {
+    #siteSearch {
+        width: auto;
+    }
+}
