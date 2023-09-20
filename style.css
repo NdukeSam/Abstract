@@ -199,5 +199,6 @@ input::placeholder {
     #footerNav {
         flex-direction: column;
         justify-content: space-around;
+        padding: 0 3rem 2rem ;
     }
 }
